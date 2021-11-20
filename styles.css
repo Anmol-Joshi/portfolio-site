@@ -4,7 +4,9 @@
 
   /* min-width: 450px; */
 }
-
+html {
+  scroll-behavior: smooth;
+}
 a {
   text-decoration: none;
 }
@@ -12,6 +14,7 @@ a {
 .fa {
   color: black;
 }
+
 
 .nav-bar {
   display: flex;

@@ -124,54 +124,6 @@ a {
     /* font-size: 7vw; */
 }
 
-@media screen and (min-width: 1001px) {
-    .main-heading-name {
-        font-size: 6vw;
-    }
-
-    .main-heading-title {
-        font-size: 4vw;
-    }
-}
-
-@media screen and (max-width: 1000px) {
-    .main-heading-name {
-        font-size: 11vw;
-    }
-
-    .main-heading-title {
-        font-size: 9vw;
-    }
-
-    .nav-bar-element {
-        font-size: large;
-    }
-
-    .nav-bar {
-        height: 70px;
-        width: 100%;
-    }
-
-    .home-banner-text {
-        padding-top: 40px;
-        padding-left: 40px;
-
-        /* padding-top: 100px;
-    padding-left: 100px; */
-
-        /* color: #eeeeee;
-    font-size: 50px; */
-
-        /* font-family: 'Merriweather', serif; */
-    }
-
-    .home-page-banner {
-        height: calc(100vh - 70px);
-
-        /* 92vh; */
-    }
-}
-
 .about {
     display: flex;
     justify-content: center;
@@ -316,4 +268,90 @@ hr {
     margin: 10px;
 
     /* margin-top: 50px; */
+}
+@media screen and (min-width: 1001px) {
+    .main-heading-name {
+        font-size: 6vw;
+    }
+
+    .main-heading-title {
+        font-size: 4vw;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .main-heading-name {
+        font-size: 11vw;
+    }
+
+    .main-heading-title {
+        font-size: 9vw;
+    }
+
+    .nav-bar-element {
+        font-size: small;
+    }
+
+    .nav-bar {
+        height: 70px;
+        width: 100%;
+    }
+
+    .home-banner-text {
+        padding-top: 40px;
+        padding-left: 40px;
+
+        /* padding-top: 100px;
+    padding-left: 100px; */
+
+        /* color: #eeeeee;
+    font-size: 50px; */
+
+        /* font-family: 'Merriweather', serif; */
+    }
+
+    .home-page-banner {
+        height: calc(100vh - 70px);
+
+        /* 92vh; */
+    }
+    .skill {
+        font-size: 60px !important;
+    }
+    .contact {
+        font-size: 30px !important;
+    }
+    .content-group {
+        /* display: flex; */
+
+        /* flex-direction: column; */
+
+        margin-top: 50px;
+        margin-bottom: 50px;
+
+        /* margin-left: 200px; */
+
+        /* margin-right: 200px; */
+
+        /* width: 900px; */
+        max-width: 90vw;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    /* .content-heading {
+        display: flex;
+        flex-direction: row;
+        font-size: x-large;
+        margin-bottom: 20px;
+        font-weight: 600;
+    } */
+    .project-link-group {
+        display: flex;
+        flex-direction: row;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .project-link {
+        margin: 5px;
+    }
 }
